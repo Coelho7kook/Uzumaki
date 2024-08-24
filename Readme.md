@@ -1,0 +1,94 @@
+echo "# Uzumaki" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M main 
+git remote add origin https://github.com/Coelho7kook/Uzumaki.git
+ git push -u origin main
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História das Animações</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .slide {
+            margin-bottom: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        p, ul {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<audio autoplay loop>
+    <source src="musica.mp3" type="audio/mp3">
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<div class="slide">
+    <h1>História das Animações</h1>
+    <p><strong>Autores:</strong> Arthur, Ruan, Pedro, Alexsandre, Brayan, Davi</p>
+</div>
+
+<div class="slide">
+    <h2>Primeiras Animações Internacionais</h2>
+    <ul>
+        <li><strong>Fantasmagorie (1908):</strong> Considerado o primeiro desenho animado, criado pelo francês Émile Cohl. Composto por 700 desenhos individuais, cada frame foi desenhado em papel e filmado em negativo, criando um efeito impressionante para a época.</li>
+        <li><strong>El Apóstol (1917):</strong> Primeiro longa-metragem de animação, criado pelo argentino Quirino Cristiani. Utilizando cerca de 58 mil desenhos, o filme foi uma sátira política que infelizmente foi perdido em um incêndio.</li>
+        <li><strong>As Aventuras do Príncipe Achmed (1926):</strong> Um dos primeiros longas-metragens de animação ainda existentes, dirigido por Lotte Reiniger, que utilizou técnicas inovadoras de animação de silhuetas baseadas em recortes de papel.</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h2>Primeiras Animações Brasileiras</h2>
+    <ul>
+        <li><strong>O Kaiser (1917):</strong> Primeiro filme de animação brasileiro, criado por Álvaro Marins (Seth). O curta-metragem usava a técnica de recortes e fazia uma crítica política ao imperador alemão Guilherme II.</li>
+        <li><strong>Sinfonia Amazônica (1953):</strong> Primeiro longa-metragem de animação do Brasil, dirigido por Anélio Latini Filho, que levou 5 anos para ser concluído e trazia histórias inspiradas no folclore amazônico.</li>
+        <li><strong>Frivolitá (1930):</strong> Curta-metragem de Luiz Seel, conhecido por suas inovações, combinava animação com filmagens ao vivo, algo raro para a época.</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h2>Animações Brasileiras e Bilheteria</h2>
+    <ul>
+        <li><strong>As Aventuras da Turma da Mônica (1982):</strong> Baseado nos populares personagens de Mauricio de Sousa, o filme alcançou grande sucesso de bilheteria, especialmente entre o público infantil.</li>
+        <li><strong>Cassiopéia (1996):</strong> Primeira animação digital 100% brasileira, sendo uma das primeiras no mundo feita sem o uso de células de animação tradicionais.</li>
+        <li><strong>Uma História de Amor e Fúria (2013):</strong> Filme premiado, que mistura ficção científica com eventos históricos brasileiros, explorando temas como opressão e resistência.</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h2>Barbie e suas irmãs em uma aventura com cães (2015)</h2>
+    <p>Este filme animado da Barbie foi lançado diretamente em vídeo e segue Barbie e suas irmãs enquanto cuidam de cachorrinhos adoráveis e resolvem um mistério. O enredo destaca o trabalho em equipe, responsabilidade e cuidado com os animais, sendo uma divertida aventura para crianças.</p>
+</div>
+
+<div class="slide">
+    <h2>A Noiva Cadáver (2005)</h2>
+    <p>"A Noiva Cadáver" é um filme de animação em stop-motion dirigido por Tim Burton e Mike Johnson. Aclamado por sua estética gótica e trilha sonora de Danny Elfman, o filme explora temas de amor, morte e destino, sendo indicado ao Oscar de Melhor Filme de Animação.</p>
+</div>
+
+</body>
+</html>
